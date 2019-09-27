@@ -1,0 +1,81 @@
+body {
+    background: rgb(219, 209, 226);
+    font-family: 'Poppins', sans-serif;       
+}
+
+h1 {
+    background: whitesmoke;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+ul {
+    font-size: 25px;
+    list-style: none;
+    margin-top: 5px;
+    padding: 0;
+    font-family: 'Mansalva', cursive;
+}
+
+li {
+    height: 40px;
+    line-height: 40px;
+}
+
+#container {
+    background: lightseagreen;
+    width: 360px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.fa-plus-square{
+    font-size: 30px;
+    float: right;
+    color: lightseagreen;
+}
+
+#trashCan {
+    background: darkred;
+    color: whitesmoke;
+    height: 40px;
+    width: 0;
+    margin-right: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100%;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+li:hover #trashCan {
+    width: 40px;
+    opacity: 1.0;
+}
+
+input {
+    background: rgb(219, 209, 226);
+    font-size: 20px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    width: 100%;
+    padding: 0 20px;   
+    margin-top: 5px;
+}
+
+input:focus {
+    background: whitesmoke;
+    border: 5px solid gray;
+    outline: none;
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
