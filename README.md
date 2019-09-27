@@ -1,2 +1,2 @@
 # ToDo_List
-ToDo List created with HTML, CSS and JavaScript
+ToDo List created with HTML, CSS and jQuery
